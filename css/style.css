@@ -1,0 +1,104 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-image:url('https://media.istockphoto.com/photos/fitness-woman-on-black-background-picture-id531398942?k=6&m=531398942&s=612x612&w=0&h=NRmJCH0ikhmRVoazVWkgPrTGrW2rPlLPIpXpjgneyjs=');
+    color: lavender;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo
+{
+   padding: 1px;
+   width: 100px;
+   cursor: pointer;
+}
+.nav_link
+{
+   list-style: none; 
+
+}
+.nav_link li 
+{
+   display: inline-block;
+   padding: 0px 20px;
+  
+  
+}
+.nav_link li a
+{
+   size: 30px;
+   color: honeydew;
+   text-decoration: none;
+   cursor: pointer;
+   font-size: 20px;
+}  
+.nav_link li a:hover
+{
+  color: violet;
+}
+button
+{
+    padding: 12px 15px;
+    margin: 13px 20px;
+   background-color: rgb(21, 231, 91);
+   border-radius: 30px;
+   border: none;
+   cursor: pointer;
+}
+button:hover
+{
+background-color: violet;
+}
+.container 
+{
+border: 2px solid whitesmoke;
+width: 35%;
+margin: 60px 95px;
+padding: 25px 25px;
+border-radius: 20px;
+}
+.form-group input
+{
+text-align: center;
+display: block;
+width: 300px;
+margin: 10px auto;
+padding: 2px;
+border:2px solid black;
+border-radius: 7px;
+font-size: 20px;
+}
+h2
+{
+    color: rgb(255, 255, 255);
+}
+.btn2
+{
+  display: block;
+  width: 35%;
+  margin: auto;
+  
+}
+footer
+{
+    min-height: 50px;
+    background: white;
+    color: black;
+    line-height: 50px;
+}

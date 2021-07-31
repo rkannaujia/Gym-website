@@ -5,102 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rahul Fitness</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        *
-        {
-            box-sizing: border-box;
-        }
-        body
-        {
-            padding: 0px;
-            margin: 0px;
-            background-image:url('https://media.istockphoto.com/photos/fitness-woman-on-black-background-picture-id531398942?k=6&m=531398942&s=612x612&w=0&h=NRmJCH0ikhmRVoazVWkgPrTGrW2rPlLPIpXpjgneyjs=');
-            color: lavender;
-            background-size: cover;
-            background-position: center;
-            font-family: sans-serif;
-        }
-        header
-        {
-            display: flex;
-            justify-content: space-between;
-            
-        }
-        .logo
-       {
-           padding: 1px;
-           width: 100px;
-           cursor: pointer;
-       }
-       .nav_link
-       {
-           list-style: none; 
-        
-       }
-       .nav_link li 
-       {
-           display: inline-block;
-           padding: 0px 20px;
-          
-          
-       }
-       .nav_link li a
-       {
-           size: 30px;
-           color: honeydew;
-           text-decoration: none;
-           cursor: pointer;
-           font-size: 20px;
-       }  
-       .nav_link li a:hover
-       {
-          color: violet;
-       }
-       button
-       {
-            padding: 12px 15px;
-            margin: 13px 20px;
-           background-color: rgb(21, 231, 91);
-           border-radius: 30px;
-           border: none;
-           cursor: pointer;
-       }
-       button:hover
-       {
-        background-color: violet;
-       }
-       .container
-       {
-        border: 2px solid whitesmoke;
-        width: 35%;
-        margin: 60px 95px;
-        padding: 25px 25px;
-        border-radius: 20px;
-       }
-       .form-group input
-       {
-        text-align: center;
-        display: block;
-        width: 300px;
-        margin: 10px auto;
-        padding: 2px;
-        border:2px solid black;
-        border-radius: 7px;
-        font-size: 20px;
-        }
-        h2
-        {
-            color: rgb(255, 255, 255);
-        }
-      .btn2
-      {
-          display: block;
-          width: 35%;
-          margin: auto;
-          
-      }
- </style>  
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/index.js"></script> 
 </head>
 <body>
     <header class="header">
@@ -115,7 +21,6 @@
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Fitness Calculater</a></li>
                 <li><a href="#">Contact us</a></li>
-               
             </ul>
         </nav>
         <!-- right box for search or button -->
@@ -123,21 +28,24 @@
     </header>
     <div class="container">
         <h2>Join The best Gym Of Ayodhya Now</h2>
-        <form action="notation.php">
+        <form action="" name="myform" onsubmit="return(validate());" >
             <div class="form-group">
-                <input type="text" name="" id="" placeholder="Enter your name">
+                <input type="text" name="firstName" id="" placeholder="Enter your name">
             </div>
             <div class="form-group">
-                <input type="text" name="" id="" placeholder="Enter your Gender">
+                <input type="text" name="genderName" id="" placeholder="Enter your Gender">
             </div>
             <div class="form-group">
-                <input type="text" name="" id="" placeholder="Enter your Age">
+                <input type="text" name="age" id="" placeholder="Enter your Age">
             </div>
             <div class="form-group">
-                <input type="text" name="" id="" placeholder="Enter your localty">
+                <input type="text" name="areaName" id="" placeholder="Enter your localty">
             </div>
             <button class="btn2">Submit</button>
         </form>
     </div>
+     <div>
+    <footer><span>@copyright</span></footer>
+     </div>
 </body>
 </html>
