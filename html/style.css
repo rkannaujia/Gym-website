@@ -1,20 +1,21 @@
 *
 {
-    padding: 0;
-    margin: 0;
+   
     box-sizing: border-box;
 }
 body
 {
-    padding: 0px;
-    margin: 0px;
+    
+    
     background-image:url('https://media.istockphoto.com/photos/fitness-woman-on-black-background-picture-id531398942?k=6&m=531398942&s=612x612&w=0&h=NRmJCH0ikhmRVoazVWkgPrTGrW2rPlLPIpXpjgneyjs=');
-    color: lavender;
+    min-height: 100vh;
     background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
-    flex-wrap: wrap;
+    background-position: center center ;
     background-repeat: no-repeat;
+    font-family: sans-serif;
+    align-items: center;
+    margin: 0;
+    width: 100%;
 }
 header
 {
@@ -94,11 +95,4 @@ h2
   width: 35%;
   margin: auto;
   
-}
-footer
-{
-    min-height: 50px;
-    background: white;
-    color: black;
-    line-height: 50px;
 }
